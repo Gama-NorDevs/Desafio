@@ -18,8 +18,7 @@
 
 ## NorDevs <a id="NorDevs"></a>
 A equipe foi formada através da interação no grupo do whatsapp. Ao nos unirmos, realizamos um <i>brainstorm</i> para definir o
-nome do grupo e ícone baseados no nosso sentimento de energia e força do nordeste. além de compartilharmos informações sobre
-as aulas e o quanto o conteúdo poderia agregar.
+nome do grupo e ícone baseados em nosso sentimento de energia e força do nordeste.
 
 Os integrantes dessa equipe <b>arretada</b> são:
 <br>
