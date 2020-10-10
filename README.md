@@ -39,7 +39,7 @@ Sistema de controle de habilidades da Nord TV, gerenciamento do corpo artístico
 #### Poker <a id="Poker"></a>
 <b>O jogo foi guiado pelo Scrum Master que apresentou as histórias principais e utilizamos a ferramenta <b>Scrumpoker</b> (https://scrumpoker.online/) para que todos votassem </b><br> <b>A sequência de Fibonacci escolhida (0,1,2,3,5,8,13,21)</b><br>
 
-<b>(Story points: 5):</b> Montagem de ambiente<br>   
+<b>(Story points: 5):</b> Montagem de ambiente<br>
 <b>(Story points: 13):</b>Criação do Banco de Dados<br>
 <b>(Story points: 8):</b> Login e logout admin (produtor) e de usuário (ator/atriz); <br>
 <b>(Story points: 21:</b> Página de busca na qual um admin (produtor) pode colocar o número de profissionais que precisa, o gênero de sua obra, a data na qual precisará iniciar as gravações e o orçamento máximo, e receber uma indicação de quais atores e atrizes contratar que se encaixem nos requisitos;<br>
