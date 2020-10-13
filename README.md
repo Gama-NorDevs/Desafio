@@ -63,6 +63,10 @@ Sistema de controle de habilidades da Nord TV, gerenciamento do corpo artístico
 <b>• Definição das tecnologias</b><br>
 <b>• Brainstorm do layout</b><br>
 
+* <b>(12/10/2020)</b><br>
+<b>• Criação e planejamento do projeto no Azure DevOps</b><br>
+<b>• Divisão de tasks</b><br>
+
 ### Sprint Review <a id="SprintReview"></a>
 ### Sprint Retrospective <a id="SprintRetro"></a>
 ## Papéis <a id="Papeis"></a>
