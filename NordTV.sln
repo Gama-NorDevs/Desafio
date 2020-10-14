@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Console", "0 - Console", "{464DBF7F-75C7-44A9-A25E-D2A47033C2DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{3E5CBB5D-C545-4BEC-B00C-01CFA938456E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{B5C6C483-E214-4C4B-A70D-DB4BE767F65E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{244CCCFF-8A8E-49AF-A188-F911E179A759}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{D577423A-96FE-4C61-9B06-57E2F731FDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordTv.Domain", "src\Modules\NordTv.Domain\NordTv.Domain.csproj", "{2ED627FD-D46B-4BCF-BFF1-07B564EDF6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordTv.Infrastructure.Repositories", "src\Modules\NordTv.Infrastructure\NordTv.Infrastructure.Repositories\NordTv.Infrastructure.Repositories.csproj", "{71CCB575-7F98-45AB-BFD8-400450CA9867}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Repositories", "3.1 - Repositories", "{305433E7-7302-4548-9FC2-A4B797978F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ED627FD-D46B-4BCF-BFF1-07B564EDF6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED627FD-D46B-4BCF-BFF1-07B564EDF6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED627FD-D46B-4BCF-BFF1-07B564EDF6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED627FD-D46B-4BCF-BFF1-07B564EDF6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CCB575-7F98-45AB-BFD8-400450CA9867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CCB575-7F98-45AB-BFD8-400450CA9867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CCB575-7F98-45AB-BFD8-400450CA9867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CCB575-7F98-45AB-BFD8-400450CA9867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2ED627FD-D46B-4BCF-BFF1-07B564EDF6A8} = {B5C6C483-E214-4C4B-A70D-DB4BE767F65E}
+		{71CCB575-7F98-45AB-BFD8-400450CA9867} = {305433E7-7302-4548-9FC2-A4B797978F0D}
+		{305433E7-7302-4548-9FC2-A4B797978F0D} = {244CCCFF-8A8E-49AF-A188-F911E179A759}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C250D6A1-0A4B-452F-B021-765CB1AD66B2}
+	EndGlobalSection
+EndGlobal
