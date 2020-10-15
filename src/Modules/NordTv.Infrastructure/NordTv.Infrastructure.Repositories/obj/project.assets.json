@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\levi\\source\\repos\\NorDevs\\NordTV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
       "projectName": "NordTv.Infrastructure.Repositories",
-      "projectPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\NordTV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
+      "projectPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
       "packagesPath": "C:\\Users\\levi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\NordTV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\obj\\",
+      "outputPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -57,8 +57,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\levi\\source\\repos\\NorDevs\\NordTV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
-              "projectPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\NordTV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
+            "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
+              "projectPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
             }
           }
         }

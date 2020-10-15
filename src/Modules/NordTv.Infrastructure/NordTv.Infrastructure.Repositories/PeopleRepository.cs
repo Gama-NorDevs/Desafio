@@ -9,7 +9,17 @@ namespace NordTv.Infrastructure.Repositories
 {
     public class PeopleRepository : IPeopleRepository
     {
-        public Task Insert(People people)
+        public Task<List<User>> Get()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<User> GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<User> Insert(User people)
         {
             throw new NotImplementedException();
         }
