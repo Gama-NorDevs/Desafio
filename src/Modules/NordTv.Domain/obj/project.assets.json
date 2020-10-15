@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\levi\\.nuget\\packages\\": {},
+    "C:\\Users\\avanade\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
       "projectName": "NordTv.Domain",
-      "projectPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
-      "packagesPath": "C:\\Users\\levi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Domain\\obj\\",
+      "projectPath": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
+      "packagesPath": "C:\\Users\\avanade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\levi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\avanade\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

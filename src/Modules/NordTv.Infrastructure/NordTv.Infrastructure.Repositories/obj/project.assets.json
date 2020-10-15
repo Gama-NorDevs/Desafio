@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\levi\\.nuget\\packages\\": {},
+    "C:\\Users\\avanade\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
       "projectName": "NordTv.Infrastructure.Repositories",
-      "projectPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
-      "packagesPath": "C:\\Users\\levi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\obj\\",
+      "projectPath": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
+      "packagesPath": "C:\\Users\\avanade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure\\NordTv.Infrastructure.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\levi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\avanade\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -57,8 +57,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
-              "projectPath": "C:\\Users\\levi\\source\\repos\\NorDevs\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
+            "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
+              "projectPath": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
             }
           }
         }
