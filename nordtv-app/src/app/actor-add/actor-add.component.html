@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Cadastro</h1>
+    <form [formGroup]="basicForm" (ngSubmit)="onSubmit()">
+        <label>Nome : </label><br>
+        <input type="text" placeholder="Nome" formControlName="name" class="form-control"><br>
+        
+        <label>Salário : </label><br>
+        <input type="text" placeholder="Salário" formControlName="amount" class="form-control"><br>
+        
+        <label>Sexo : </label><br>
+        <select style="height: 40px;" placeholder="Sexo" formControlName="sex" class="form-control">
+            <option value="F">Feminino</option>
+            <option value="M">Masculino</option>
+        </select><br>
+
+        <label>Senha : </label><br>
+        <input type="password" placeholder="Senha" formControlName="password" class="form-control"><br>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>
+

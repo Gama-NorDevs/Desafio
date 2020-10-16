@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { UsersNewComponent } from './users-new/users-new.component';
-import { UsersListComponent } from './users-list/users-list.component';
+import { ActorService } from 'src/services/actor/actor.service';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +18,9 @@ import { UsersListComponent } from './users-list/users-list.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    ActorService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

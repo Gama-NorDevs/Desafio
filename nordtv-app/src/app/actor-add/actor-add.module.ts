@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule as FormsModuleAngular, ReactiveFormsModule } from '@angular/forms';
+import { ActorAddRoutingModule } from './actor-add-routing.module';
+import { ActorAddComponent } from './actor-add.component';
 
-import { UsersNewComponent } from './users-new.component';
-import { UsersNewRoutingModule } from './users-new-routing.module';
 
 
 @NgModule({
-  declarations: [UsersNewComponent],
+  declarations: [ActorAddComponent],
   imports: [
     CommonModule,
-    UsersNewRoutingModule,
+    ActorAddRoutingModule,
     FormsModuleAngular,
     ReactiveFormsModule
   ]
 })
-export class UsersNewModule { }
+export class ActorAddModule { }

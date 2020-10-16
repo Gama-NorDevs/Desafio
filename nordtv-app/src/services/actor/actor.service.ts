@@ -3,30 +3,28 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ProviderService } from '../provider/provider.service';
 
-
 @Injectable()
-export class UserService extends ProviderService{
+export class ActorService extends ProviderService{
 
   private http: HttpClient;
 
   constructor(_http: HttpClient) {
-      super('user');
+      super('actor');
       this.http = _http;
   }
 
-  public getUsers(): Observable<any>
+  public getActors(): Observable<any>
   {
      return this.http.get<any>(`${this.url}`)
   }
 
-  public getUsersById(id: number): Observable<any>
+  public getActorsById(id: number): Observable<any>
   {
      return this.http.get<any>(`${this.url}/${id}`);
   }
 
-  public InsertUser(data: any): Observable<any>
+  public InsertActor(data: any): Observable<any>
   {
      return this.http.post(`${this.url}`, data, {});
   }
-
 }

@@ -1,19 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { UserService } from 'src/services/user/user.service';
-import { User } from 'src/services/models/user';
+import { ActorService } from 'src/services/actor/actor.service';
+import { Actor } from 'src/services/models/actor';
 
 @Component({
-  selector: 'app-users-new',
-  templateUrl: './users-new.component.html',
-  styleUrls: ['./users-new.component.css']
+  selector: 'app-actor-add',
+  templateUrl: './actor-add.component.html',
+  styleUrls: ['./actor-add.component.css']
 })
-export class UsersNewComponent implements OnInit {
-  public users: Array<any> = [];
+export class ActorAddComponent implements OnInit {
+
+  public actors: Array<any> = [];
 
   basicForm: FormGroup;
 
-  constructor(private _userService: UserService) {
+  constructor(private _actorService: ActorService) {
 
   }
 
@@ -28,35 +29,18 @@ export class UsersNewComponent implements OnInit {
     });
   }
 
-  getUsers(): void
-  {
-    this._userService.getUsers()
-        .subscribe(
-          (response: any) => {
-            this.users = response.data;
-          },
-          (error: any) => {
-            alert('Erro ao carregar atores e/ou atrizes');
-          }
-        );
-  }
-
-  carregar(): void {
-    this.getUsers();
-  }
-
   onSubmit() {
-    const user = new User(this.basicForm.controls.name.value,
+    const actor = new Actor(this.basicForm.controls.name.value,
                           this.basicForm.controls.amount.value,
                           this.basicForm.controls.email.value,
                           this.basicForm.controls.password.value,
                           this.basicForm.controls.profile.value,
                           this.basicForm.controls.sex.value);
 
-    const data = JSON.stringify(user);
+    const data = JSON.stringify(actor);
 
-    this._userService
-        .InsertUser(JSON.parse(data))
+    this._actorService
+        .InsertActor(JSON.parse(data))
         .subscribe(
           (response: any) => {
             alert('Dados inseridos com sucesso');
@@ -66,5 +50,5 @@ export class UsersNewComponent implements OnInit {
           }
         );
   }
-}
 
+}
