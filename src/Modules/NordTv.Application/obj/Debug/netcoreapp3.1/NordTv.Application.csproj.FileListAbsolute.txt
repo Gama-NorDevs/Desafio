@@ -1,0 +1,11 @@
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Application.deps.json
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Application.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Application.pdb
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Domain.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Domain.pdb
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.csprojAssemblyReference.cache
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.AssemblyInfoInputs.cache
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.AssemblyInfo.cs
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.csproj.CopyComplete
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.pdb

@@ -1,15 +1,17 @@
 ﻿using NordTv.Domain.Entities;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NordTv.Domain.Interfaces.Repositories
 {
     public interface IUserRepository
     {
-        Task<Actor> Insert(Actor user);
-        Task<Actor> GetById(int id);
-        Task<List<Actor>> Get();
+        Task<User> Insert(User user);
+        Task<int> Delete(User user);
+        Task<int> DeleteById(int id);
+        Task<User> Update(User user);
+        Task<User> GetById(int id);
+        Task<User> GetByEmail(string email);
+        Task<List<User>> GetAll();
     }
 }

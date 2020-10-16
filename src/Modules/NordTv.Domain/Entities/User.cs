@@ -6,28 +6,30 @@ namespace NordTv.Domain.Entities
 {
     public class User
     {
-        public User (   string name,
+
+
+        public User(string name,
                         string email,
                         string password,
-                        string profile )
+                        string profile)
         {
             Name = name;
             Email = email;
             Password = password;
-            Profile = profile;
+             SetProfile(profile);
         }
 
-        public User (   int id,
+        public User(int id,
                         string name,
                         string email,
                         string password,
-                        string profile )
+                        string profile)
         {
             Id = id;
             Name = name;
             Email = email;
             Password = password;
-            Profile = profile;
+            SetProfile(profile);
         }
 
         public int Id { get; private set; }
@@ -35,6 +37,20 @@ namespace NordTv.Domain.Entities
         public string Email { get; private set; }
         public string Password { get; private set; }
         public string Profile { get; private set; }
+
+        private void SetProfile(string profile)
+        {
+            var profiles = new[] { "ADMIN","ACTOR" };
+
+            Array.ForEach(profiles, item => {
+                if (item.Equals(profile.ToUpper())) {
+                    Profile = profile;
+                    return;
+                }
+            });
+
+            throw new ArgumentException("Profile argument not match with"+ string.Join(" or ",profiles));
+        }
 
     }
 }

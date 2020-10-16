@@ -1,7 +1,5 @@
 ﻿using NordTv.Domain.Entities;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NordTv.Domain.Interfaces.Repositories
@@ -13,5 +11,6 @@ namespace NordTv.Domain.Interfaces.Repositories
         Task<Work> DeleteById(int id);
         Task<Work> Update(Work work);
         Task<Work> GetById(int id);
+        Task<List<Work>> GetAll();
     }
 }

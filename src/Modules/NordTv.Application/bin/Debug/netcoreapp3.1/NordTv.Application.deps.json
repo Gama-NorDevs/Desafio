@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NordTv.Application/1.0.0": {
+        "dependencies": {
+          "NordTv.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NordTv.Application.dll": {}
+        }
+      },
+      "NordTv.Domain/1.0.0": {
+        "runtime": {
+          "NordTv.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NordTv.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NordTv.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.deps.json
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.csprojAssemblyReference.cache
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.AssemblyInfoInputs.cache
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.AssemblyInfo.cs
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.pdb
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Application.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Domain.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Application.pdb
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.pdb
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\bin\Debug\netcoreapp3.1\NordTv.Domain.pdb
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.csproj.CopyComplete
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Ioc\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {}
+    "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
+    "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
         "projectName": "NordTv.Domain",
-        "projectPath": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
+        "projectPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
         "packagesPath": "C:\\Users\\avanade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avanade\\Source\\Repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\obj\\",
+        "outputPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
