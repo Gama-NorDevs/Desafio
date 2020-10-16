@@ -39,11 +39,11 @@ namespace NordTv.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<User> Insert(User user)
+        public async Task<User> Insert(User user)
         {
              users.Add(user);
 
-            return null;
+            return user;
         }
 
         public Task<User> Update(User user)
