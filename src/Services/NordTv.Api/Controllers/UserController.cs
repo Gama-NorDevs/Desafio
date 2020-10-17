@@ -26,9 +26,42 @@ namespace NordTv.Api.Controllers
         {
             try
             {
-                
-                var user =await _userService.InsertAsync(input).ConfigureAwait(false);
-                return Created("",user);
+
+                var user = await _userService.InsertAsync(input).ConfigureAwait(false);
+                return Created("", user);
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest($"Erro => {ex.Message}");
+            }
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            try
+            {
+
+                var listUser = await _userService.GetAllAsync().ConfigureAwait(false);
+
+                return Ok(listUser.ToArray());
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest($"Erro => {ex.Message}");
+            }
+        }
+
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<IActionResult> GetByID([FromRoute] int id)
+        {
+            try
+            {
+                var user = await _userService.GetByIdAsync(id).ConfigureAwait(false);
+                return Ok(user);
             }
             catch (Exception ex)
             {
