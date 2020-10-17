@@ -16,10 +16,10 @@ use nordtv;
 CREATE TABLE [dbo].[User]
 (
     [id] [int] IDENTITY(1,1) NOT NULL,
-    [name] [VARCHAR] NOT NULL,
-    [email] [VARCHAR] NOT NULL UNIQUE,
-    [password] [VARCHAR] NOT NULL,
-    [profile] [VARCHAR] NOT NULL,
+    [name] [VARCHAR](255) NOT NULL,
+    [email] [VARCHAR](255) NOT NULL UNIQUE,
+    [password] [VARCHAR](255) NOT NULL,
+    [profile] [VARCHAR](10) NOT NULL,
     CONSTRAINT PK_User_id PRIMARY KEY CLUSTERED (id)
 );
 
@@ -41,7 +41,7 @@ CREATE TABLE [dbo].[Actor]
 CREATE TABLE [dbo].[Genre]
 (
     [id] [int] IDENTITY(1,1) NOT NULL,
-    [description] [VARCHAR] NOT NULL UNIQUE,
+    [description] [VARCHAR](255) NOT NULL UNIQUE,
     CONSTRAINT PK_Genre_id PRIMARY KEY CLUSTERED (id)
 
 )
@@ -66,7 +66,7 @@ CREATE TABLE [dbo].[Actor_Genre]
 CREATE TABLE [dbo].[Work]
 (
     [id] [int] IDENTITY(1,1) NOT NULL,
-    [name] [VARCHAR] not NULL,
+    [name] [VARCHAR](255) not NULL,
     [budget] [real] not NULL,
     [date_start] [datetime] NOT NULL,
     [date_end] [datetime] NOT NULL,

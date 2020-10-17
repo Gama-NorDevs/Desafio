@@ -25,7 +25,7 @@ namespace NordTv.Domain.Entities
                         string password,
                         string profile)
         {
-            Id = id;
+            SetId(id);
             Name = name;
             Email = email;
             Password = password;
@@ -56,6 +56,10 @@ namespace NordTv.Domain.Entities
                 throw new ArgumentException("Profile argument not match with " + string.Join(" or ", profiles));
             }
 
+        }
+
+        public void SetId(int id) {
+            Id = id;
         }
 
     }

@@ -99,3 +99,11 @@ C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcorea
 C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Ioc.pdb
 C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\NordTv.Domain.pdb
 C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.pdb
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\avanade\source\repos\Nord-TV\src\Services\NordTv.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

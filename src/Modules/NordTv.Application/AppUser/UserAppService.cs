@@ -19,33 +19,33 @@ namespace NordTv.Application.AppUser
             _userRepository = userRepository;
         }
 
-        public Task<int> DeleteById(int id)
+        public Task<int> DeleteByIdAsync(int id)
         {
-            return _userRepository.DeleteById(id);
+            return _userRepository.DeleteByIdAsync(id);
         }
 
-        public Task<List<User>> GetAll()
+        public Task<List<User>> GetAllAsync()
         {
-            return _userRepository.GetAll();
+            return _userRepository.GetAllAsync();
         }
 
-        public Task<User> GetByEmail(string email)
+        public Task<User> GetByEmailAsync(string email)
         {
-            return _userRepository.GetByEmail(email);
+            return _userRepository.GetByEmailAsync(email);
         }
 
-        public Task<User> GetById(int id)
+        public Task<User> GetByIdAsync(int id)
         {
-            return _userRepository.GetById(id);
+            return _userRepository.GetByIdAsync(id);
         }
 
-        public Task<User> Insert(UserInput input)
+        public Task<User> InsertAsync(UserInput input)
         {
             var user = new User(input.Name, input.Email, input.Password, input.Profile);
-            return _userRepository.Insert(user);
+            return _userRepository.InsertAsync(user);
         }
 
-        public Task<User> Update(UserInput input)
+        public Task<User> UpdateAsync(UserInput input)
         {
             throw new NotImplementedException();
         }

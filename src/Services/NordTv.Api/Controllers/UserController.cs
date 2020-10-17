@@ -27,7 +27,7 @@ namespace NordTv.Api.Controllers
             try
             {
                 
-                var user =await _userService.Insert(input).ConfigureAwait(false);
+                var user =await _userService.InsertAsync(input).ConfigureAwait(false);
                 return Created("",user);
             }
             catch (Exception ex)
@@ -36,5 +36,6 @@ namespace NordTv.Api.Controllers
                 return BadRequest($"Erro => {ex.Message}");
             }
         }
+
     }
 }
