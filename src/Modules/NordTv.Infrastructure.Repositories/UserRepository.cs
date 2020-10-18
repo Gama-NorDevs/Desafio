@@ -20,29 +20,19 @@ namespace NordTv.Infrastructure.Repositories
             configurationDB = _configuration["ConnectionString"];
         }
 
-        public Task<int> DeleteAsync(User user)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<int> DeleteByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<List<User>> GetAllAsync()
         {
             try
             {
-                using var con = new SqlConnection(_configuration["ConnectionString"]);
+                using var connection = new SqlConnection(_configuration["ConnectionString"]);
                 var userList = new List<User>();
-                var sqlCmd = @"SELECT * FROM [dbo].[User]; ";
+                var sqlQuery = @"SELECT * FROM [dbo].[User]; ";
 
-                using SqlCommand cmd = new SqlCommand(sqlCmd, con);
-                cmd.CommandType = CommandType.Text;
-                con.Open();
+                using SqlCommand command = new SqlCommand(sqlQuery, connection);
+                command.CommandType = CommandType.Text;
+                connection.Open();
 
-                var reader = await cmd.ExecuteReaderAsync().ConfigureAwait(false);
+                var reader = await command.ExecuteReaderAsync().ConfigureAwait(false);
 
                 while (reader.Read())
                 {
@@ -68,16 +58,16 @@ namespace NordTv.Infrastructure.Repositories
         {
             try
             {
-                using var con = new SqlConnection(_configuration["ConnectionString"]);
-                var sqlCmd = $@"SELECT *
+                using var connection = new SqlConnection(_configuration["ConnectionString"]);
+                var sqlQuery = $@"SELECT *
                                     FROM [dbo].[User] 
                                     WHERE email={email};";
 
-                using SqlCommand cmd = new SqlCommand(sqlCmd, con);
-                cmd.CommandType = CommandType.Text;
-                con.Open();
+                using SqlCommand command = new SqlCommand(sqlQuery, connection);
+                command.CommandType = CommandType.Text;
+                connection.Open();
 
-                var reader = await cmd
+                var reader = await command
                                     .ExecuteReaderAsync()
                                     .ConfigureAwait(false);
 
@@ -104,16 +94,16 @@ namespace NordTv.Infrastructure.Repositories
         {
             try
             {
-                using var con = new SqlConnection(_configuration["ConnectionString"]);
-                var sqlCmd = $@"SELECT *
+                using var connection = new SqlConnection(_configuration["ConnectionString"]);
+                var sqlQuery = $@"SELECT *
                                     FROM [dbo].[User] 
                                     WHERE id={id};";
 
-                using SqlCommand cmd = new SqlCommand(sqlCmd, con);
-                cmd.CommandType = CommandType.Text;
-                con.Open();
+                using SqlCommand command = new SqlCommand(sqlQuery, connection);
+                command.CommandType = CommandType.Text;
+                connection.Open();
 
-                var reader = await cmd
+                var reader = await command
                                     .ExecuteReaderAsync()
                                     .ConfigureAwait(false);
 
@@ -140,8 +130,8 @@ namespace NordTv.Infrastructure.Repositories
         {
             try
             {
-                using var con = new SqlConnection(configurationDB);
-                var sqlCmd = @"INSERT INTO 
+                using var connection = new SqlConnection(configurationDB);
+                var sqlQuery = @"INSERT INTO 
                                   [dbo].[User] (Name, 
                                         Email, 
                                         Password, 
@@ -151,20 +141,20 @@ namespace NordTv.Infrastructure.Repositories
                                         @password, 
                                         @profile); SELECT scope_identity();";
 
-                using SqlCommand cmd = new SqlCommand(sqlCmd, con);
+                using SqlCommand command = new SqlCommand(sqlQuery, connection);
 
-                cmd.CommandType = CommandType.Text;
+                command.CommandType = CommandType.Text;
 
-                cmd.Parameters.AddWithValue("name", user.Name);
-                cmd.Parameters.AddWithValue("email", user.Email);
-                cmd.Parameters.AddWithValue("password", user.Password);
-                cmd.Parameters.AddWithValue("profile", user.Profile);
+                command.Parameters.AddWithValue("name", user.Name);
+                command.Parameters.AddWithValue("email", user.Email);
+                command.Parameters.AddWithValue("password", user.Password);
+                command.Parameters.AddWithValue("profile", user.Profile);
 
-                con.Open();
+                connection.Open();
 
-                var id = await cmd.ExecuteScalarAsync().ConfigureAwait(false);
+                var id = await command.ExecuteScalarAsync().ConfigureAwait(false);
 
-                con.Close();
+                connection.Close();
 
                 user.SetId(int.Parse(id.ToString()));
                 return user;
@@ -173,11 +163,6 @@ namespace NordTv.Infrastructure.Repositories
             {
                 throw new Exception(ex.Message);
             }
-        }
-
-        public Task<User> UpdateAsync(User user)
-        {
-            throw new NotImplementedException();
         }
     }
 }

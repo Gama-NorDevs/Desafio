@@ -10,16 +10,18 @@ namespace NordTv.Domain.Entities
                       Genre genre,
                       string name,
                       double budget,
-                      DateTime dateInit,
-                      DateTime dateEnd
+                      DateTime dateStart,
+                      DateTime dateEnd,
+                      List<Actor> actors
                       )
         {
             Productor = productor;
             Genre = genre;
             Name = name;
             Budget = budget;
-            DateInit = dateInit;
+            DateStart = dateStart;
             DateEnd = dateEnd;
+            Actors = actors;
         }
 
         public Work (   int id,
@@ -27,8 +29,9 @@ namespace NordTv.Domain.Entities
                         Genre genre,
                         string name,
                         double budget,
-                        DateTime dateInit,
-                        DateTime dateEnd
+                        DateTime dateStart,
+                        DateTime dateEnd,
+                        List<Actor> actors
                       )
         {
             Id = id;
@@ -36,18 +39,39 @@ namespace NordTv.Domain.Entities
             Genre = genre;
             Name = name;
             Budget = budget;
-            DateInit = dateInit;
+            DateStart = dateStart;
+            DateEnd = dateEnd;
+            Actors = actors;
+        }
+        public Work(int id,
+                       User productor,
+                       Genre genre,
+                       string name,
+                       double budget,
+                       DateTime dateStart,
+                       DateTime dateEnd
+                     )
+        {
+            Id = id;
+            Productor = productor;
+            Genre = genre;
+            Name = name;
+            Budget = budget;
+            DateStart = dateStart;
             DateEnd = dateEnd;
         }
-
-        public int Id { get; private set; }
+        public int Id { get; set; }
         // Productor is the Admin
-        public User Productor { get; private set; }
-        public Genre Genre { get; private set; }
-        public string Name { get; private set; }
-        public double Budget { get; private set; }
-        public DateTime DateInit { get; private set; }
-        public DateTime DateEnd { get; private set; }
-        public List<Actor> Actors { get; private set; }
+        public User Productor { get; set; }
+        public Genre Genre { get; set; }
+        public string Name { get; set; }
+        public double Budget { get; set; }
+        public DateTime DateStart { get; set; }
+        public DateTime DateEnd { get; set; }
+        public List<Actor> Actors { get; set; }
+        public void SetId(int id)
+        {
+            Id = id;
+        }
     }
 }

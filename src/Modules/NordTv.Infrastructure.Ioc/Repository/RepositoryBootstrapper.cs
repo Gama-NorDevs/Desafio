@@ -11,6 +11,8 @@ namespace NordTv.Infrastructure.Ioc.Repository
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IActorRepository, ActorRepository>();
+            services.AddScoped<IWorkRepository, WorkRepository>();
+            services.AddScoped<IGenreRepository, GenreRepository>();
         }
     }
 }

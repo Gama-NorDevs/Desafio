@@ -6,8 +6,6 @@ namespace NordTv.Domain.Entities
 {
     public class User
     {
-
-
         public User(string name,
                         string email,
                         string password,

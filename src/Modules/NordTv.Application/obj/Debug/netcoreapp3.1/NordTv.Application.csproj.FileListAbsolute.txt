@@ -21,3 +21,14 @@ C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netc
 C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.csproj.CopyComplete
 C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.dll
 C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.pdb
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Application.deps.json
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Application.dll
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Application.pdb
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Domain.dll
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\bin\Debug\netcoreapp3.1\NordTv.Domain.pdb
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.csprojAssemblyReference.cache
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.AssemblyInfoInputs.cache
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.AssemblyInfo.cs
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.csproj.CopyComplete
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.dll
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Application\obj\Debug\netcoreapp3.1\NordTv.Application.pdb

@@ -6613,20 +6613,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\levi\\.nuget\\packages\\": {}
+    "C:\\Users\\m.carvalho.santos\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\levi\\source\\repos\\Nord-TV\\src\\Services\\NordTv.Api\\NordTv.Api.csproj",
+      "projectUniqueName": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Services\\NordTv.Api\\NordTv.Api.csproj",
       "projectName": "NordTv.Api",
-      "projectPath": "C:\\Users\\levi\\source\\repos\\Nord-TV\\src\\Services\\NordTv.Api\\NordTv.Api.csproj",
-      "packagesPath": "C:\\Users\\levi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\levi\\source\\repos\\Nord-TV\\src\\Services\\NordTv.Api\\obj\\",
+      "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Services\\NordTv.Api\\NordTv.Api.csproj",
+      "packagesPath": "C:\\Users\\m.carvalho.santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Services\\NordTv.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\levi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\m.carvalho.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6638,11 +6643,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\levi\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj": {
-              "projectPath": "C:\\Users\\levi\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj"
+            "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj": {
+              "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj"
             },
-            "C:\\Users\\levi\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Ioc\\NordTv.Infrastructure.Ioc.csproj": {
-              "projectPath": "C:\\Users\\levi\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Ioc\\NordTv.Infrastructure.Ioc.csproj"
+            "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Ioc\\NordTv.Infrastructure.Ioc.csproj": {
+              "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Ioc\\NordTv.Infrastructure.Ioc.csproj"
             }
           }
         }
@@ -6679,7 +6684,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

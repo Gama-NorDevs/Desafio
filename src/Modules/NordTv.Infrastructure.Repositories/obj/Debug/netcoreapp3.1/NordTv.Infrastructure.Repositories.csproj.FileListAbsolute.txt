@@ -21,3 +21,14 @@ C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositorie
 C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.csproj.CopyComplete
 C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.dll
 C:\Users\levi\source\repos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.pdb
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.deps.json
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.dll
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.pdb
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\NordTv.Domain.dll
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\bin\Debug\netcoreapp3.1\NordTv.Domain.pdb
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.csprojAssemblyReference.cache
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.AssemblyInfoInputs.cache
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.AssemblyInfo.cs
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.csproj.CopyComplete
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.dll
+C:\Users\m.carvalho.santos\Documents\projetos\Nord-TV\src\Modules\NordTv.Infrastructure.Repositories\obj\Debug\netcoreapp3.1\NordTv.Infrastructure.Repositories.pdb
