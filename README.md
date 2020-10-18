@@ -67,6 +67,22 @@ Sistema de controle de habilidades da Nord TV, gerenciamento do corpo artístico
 <b>• Criação e planejamento do projeto no Azure DevOps</b><br>
 <b>• Divisão de tasks</b><br>
 
+* <b>(13/10/2020)</b><br>
+<b>• Criação da API básica</b><br>
+<b>• Criação das classes essenciais</b><br>
+
+* <b>(14/10/2020)</b><br>
+<b>• Remodelagem do Banco de Dados</b><br>
+<b>• Nova diagramação do Banco</b><br>
+
+* <b>(15/10/2020)</b><br>
+<b>• Problemas de rota com o Angular</b><br>
+<b>• Decisão de mudar o Angular por React</b><br>
+
+* <b>(16/10/2020)</b><br>
+<b>• Inversão de papéis: Monaliza de Front End para Back End</b><br>
+<b>• Inversão de papéis: Noé de Back End para Front End</b><br>
+
 ### Sprint Review <a id="SprintReview"></a>
 ### Sprint Retrospective <a id="SprintRetro"></a>
 ## Papéis <a id="Papeis"></a>
