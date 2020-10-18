@@ -20,7 +20,7 @@ namespace NordTv.Domain.Entities
                         char sex,
                         User user )
         {
-            Id = id;
+            SetId(id);
             Amount = amount;
             Sex = sex;
             User = user;
@@ -32,5 +32,10 @@ namespace NordTv.Domain.Entities
         public User User { get; private set; }
         public List<Work> Works { get; private set; }
         public List<Genre> Genres { get; private set; }
+
+        public void SetId(int id)
+        {
+            Id = id;
+        }
     }
 }

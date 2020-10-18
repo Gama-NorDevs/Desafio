@@ -6,11 +6,8 @@ namespace NordTv.Domain.Interfaces.Repositories
 {
     public interface IWorkRepository
     {
-        Task<Work> Insert(Work work);
-        Task<int> Delete(Work work);
-        Task<Work> DeleteById(int id);
-        Task<Work> Update(Work work);
-        Task<Work> GetById(int id);
-        Task<List<Work>> GetAll();
+        Task<Work> InsertAsync(Work work);
+        Task<Work> GetByIdAsync(int id);
+        Task<List<Work>> GetAllAsync();
     }
 }

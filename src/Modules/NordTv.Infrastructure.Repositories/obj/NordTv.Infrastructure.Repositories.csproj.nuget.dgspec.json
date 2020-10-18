@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj": {}
+    "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
+    "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
         "projectName": "NordTv.Domain",
-        "projectPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
-        "packagesPath": "C:\\Users\\avanade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\obj\\",
+        "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj",
+        "packagesPath": "C:\\Users\\m.carvalho.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\avanade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.carvalho.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,20 +60,20 @@
         }
       }
     },
-    "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj": {
+    "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
         "projectName": "NordTv.Infrastructure.Repositories",
-        "projectPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
-        "packagesPath": "C:\\Users\\avanade\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\obj\\",
+        "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\NordTv.Infrastructure.Repositories.csproj",
+        "packagesPath": "C:\\Users\\m.carvalho.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Infrastructure.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\avanade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.carvalho.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -87,8 +87,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
-                "projectPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
+              "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
+                "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
               }
             }
           }

@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\avanade\\.nuget\\packages\\": {},
+    "C:\\Users\\m.carvalho.santos\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj",
+      "projectUniqueName": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj",
       "projectName": "NordTv.Application",
-      "projectPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj",
-      "packagesPath": "C:\\Users\\avanade\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Application\\obj\\",
+      "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Application\\NordTv.Application.csproj",
+      "packagesPath": "C:\\Users\\m.carvalho.santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\avanade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\m.carvalho.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -57,8 +57,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
-              "projectPath": "C:\\Users\\avanade\\source\\repos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
+            "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj": {
+              "projectPath": "C:\\Users\\m.carvalho.santos\\Documents\\projetos\\Nord-TV\\src\\Modules\\NordTv.Domain\\NordTv.Domain.csproj"
             }
           }
         }

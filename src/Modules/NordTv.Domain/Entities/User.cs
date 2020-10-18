@@ -6,8 +6,6 @@ namespace NordTv.Domain.Entities
 {
     public class User
     {
-
-
         public User(string name,
                         string email,
                         string password,
@@ -58,7 +56,8 @@ namespace NordTv.Domain.Entities
 
         }
 
-        public void SetId(int id) {
+        public void SetId(int id) 
+        {
             Id = id;
         }
 

@@ -19,11 +19,6 @@ namespace NordTv.Application.AppUser
             _userRepository = userRepository;
         }
 
-        public Task<int> DeleteByIdAsync(int id)
-        {
-            return _userRepository.DeleteByIdAsync(id);
-        }
-
         public Task<List<User>> GetAllAsync()
         {
             return _userRepository.GetAllAsync();
@@ -44,10 +39,6 @@ namespace NordTv.Application.AppUser
             var user = new User(input.Name, input.Email, input.Password, input.Profile);
             return _userRepository.InsertAsync(user);
         }
-
-        public Task<User> UpdateAsync(UserInput input)
-        {
-            throw new NotImplementedException();
-        }
     }
+
 }
