@@ -10,6 +10,7 @@ namespace NordTv.Infrastructure.Ioc.Repository
         internal void ChildRegisterService(IServiceCollection services)
         {
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IActorRepository, ActorRepository>();
         }
     }
 }

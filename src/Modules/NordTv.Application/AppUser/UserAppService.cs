@@ -50,4 +50,5 @@ namespace NordTv.Application.AppUser
             throw new NotImplementedException();
         }
     }
+
 }

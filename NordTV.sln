@@ -21,11 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NordTv.Infrastructure.Repos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NordTv.Application", "src\Modules\NordTv.Application\NordTv.Application.csproj", "{D4158690-5C9B-43AE-B502-E5E975B30C07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordTv.Api", "src\Services\NordTv.Api\NordTv.Api.csproj", "{9B5245DE-1191-4698-BB00-884EC263E9D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NordTv.Api", "src\Services\NordTv.Api\NordTv.Api.csproj", "{9B5245DE-1191-4698-BB00-884EC263E9D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - IoC", "3.2 - IoC", "{27AEFB1E-B158-44D0-894A-FA1771AD4321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordTv.Infrastructure.Ioc", "src\Modules\NordTv.Infrastructure.Ioc\NordTv.Infrastructure.Ioc.csproj", "{4C5D0403-60C2-4F68-9C35-27B9B3D87253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NordTv.Infrastructure.Ioc", "src\Modules\NordTv.Infrastructure.Ioc\NordTv.Infrastructure.Ioc.csproj", "{4C5D0403-60C2-4F68-9C35-27B9B3D87253}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

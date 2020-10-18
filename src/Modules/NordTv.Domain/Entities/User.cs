@@ -58,7 +58,8 @@ namespace NordTv.Domain.Entities
 
         }
 
-        public void SetId(int id) {
+        public void SetId(int id) 
+        {
             Id = id;
         }
 
