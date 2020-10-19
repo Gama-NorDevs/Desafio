@@ -69,6 +69,26 @@ namespace NordTv.Domain.Entities
         public DateTime DateStart { get; set; }
         public DateTime DateEnd { get; set; }
         public List<Actor> Actors { get; set; }
+
+        public bool IsValid()
+        {
+            var valid = true;
+
+            Productor.IsValid();
+            Genre.IsValid();
+
+            if (
+                string.IsNullOrEmpty(Name) ||
+                string.IsNullOrEmpty(Budget.ToString()) ||
+                string.IsNullOrEmpty(DateStart.ToString()) ||
+                string.IsNullOrEmpty(DateEnd.ToString())
+                )
+            {
+                valid = false;
+            }
+
+            return valid;
+        }
         public void SetId(int id)
         {
             Id = id;

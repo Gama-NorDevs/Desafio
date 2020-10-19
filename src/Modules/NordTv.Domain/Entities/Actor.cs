@@ -33,6 +33,23 @@ namespace NordTv.Domain.Entities
         public List<Work> Works { get; private set; }
         public List<Genre> Genres { get; private set; }
 
+        public bool IsValid()
+        {
+            var valid = true;
+
+            User.IsValid();
+           
+            if (
+                string.IsNullOrEmpty(Amount.ToString()) ||
+                string.IsNullOrEmpty(Sex.ToString()) 
+                )
+            {
+                valid = false;
+            }
+
+            return valid;
+        }
+
         public void SetId(int id)
         {
             Id = id;

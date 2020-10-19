@@ -18,7 +18,21 @@ namespace NordTv.Domain.Entities
             Description = description;
         }
 
-        public int Id { get; private set; }
-        public string Description { get; private set; }
+        public int Id { get; set; }
+        public string Description { get; set; }
+
+        public bool IsValid()
+        {
+            var valid = true;
+           
+            if (
+                string.IsNullOrEmpty(Description)
+                )
+            {
+                valid = false;
+            }
+
+            return valid;
+        }
     }
 }
