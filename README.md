@@ -14,7 +14,7 @@
   * [Product Backlog](#PB)
   * [Sprint Backlog](#SB)
   * [Definition of Done](#DOD)
-  * [Increment](#Increment)
+  
 
 ## NorDevs <a id="NorDevs"></a>
 A equipe foi formada através da interação no grupo do whatsapp. Ao nos unirmos, realizamos um <i>brainstorm</i> para definir o
@@ -152,5 +152,5 @@ Sistema de controle de habilidades da Nord TV, gerenciamento do corpo artístico
 • Criar componente para exibir as datas com mais reservas<br>
 
 ### Definition of Done <a id="DOD"></a>
-### Increment <a id="Increment"></a>
+• Requisitos obrigatórios <br>
 
