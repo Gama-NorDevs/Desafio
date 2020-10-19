@@ -15,6 +15,17 @@ namespace NordTv.Domain.Entities
             User = user;
         }
 
+        public Actor(double amount,
+                      char sex,
+                      User user,
+                      List<Genre> genres)
+        {
+            Amount = amount;
+            Sex = sex;
+            User = user;
+            Genres = genres;
+        }
+
         public Actor (  int id,
                         double amount,
                         char sex,
