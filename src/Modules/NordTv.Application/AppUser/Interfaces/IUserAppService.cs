@@ -1,4 +1,5 @@
 ﻿using NordTv.Application.AppUser.Input;
+using NordTv.Application.AppUser.Output;
 using NordTv.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ namespace NordTv.Application.AppUser.Interfaces
 {
     public interface IUserAppService
     {
-        Task<User> InsertAsync(UserInput input);
+        Task<UserViewModel> InsertAsync(UserInput input);
         Task<User> GetByIdAsync(int id);
         Task<User> GetByEmailAsync(string email);
         Task<List<User>> GetAllAsync();
