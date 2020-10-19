@@ -15,6 +15,7 @@ namespace NordTv.Infrastructure.Ioc.Application
             services.AddScoped<IUserAppService, UserAppService>();
             services.AddScoped<IActorAppService, ActorAppService>();
             services.AddScoped<IWorkAppService, WorkAppService>();
+            services.AddScoped<ILoginAppService, LoginAppService>();
         }
     }
 }

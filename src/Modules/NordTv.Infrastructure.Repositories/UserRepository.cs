@@ -79,6 +79,7 @@ namespace NordTv.Infrastructure.Repositories
                                         reader["password"].ToString(), 
                                         reader["profile"].ToString());
 
+                    user.InformationEmailUser(reader["Email"].ToString(), reader["Password"].ToString());
                     return user;
                 }
 
@@ -90,6 +91,7 @@ namespace NordTv.Infrastructure.Repositories
             }
         }
 
+        
         public async Task<User> GetByIdAsync(int id)
         {
             try
@@ -115,6 +117,44 @@ namespace NordTv.Infrastructure.Repositories
                                         reader["password"].ToString(), 
                                         reader["profile"].ToString());
 
+                    return user;
+                }
+
+                return default;
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public async Task<User> GetByLoginAsync(string email)
+        {
+            try
+            {
+                using var connection = new SqlConnection(_configuration["ConnectionString"]);
+                var sqlQuery = $@"SELECT *
+                                    FROM [dbo].[User] 
+                                    WHERE email='{email}';";
+
+                using SqlCommand command = new SqlCommand(sqlQuery, connection);
+                command.CommandType = CommandType.Text;
+                connection.Open();
+
+                var reader = await command
+                                    .ExecuteReaderAsync()
+                                    .ConfigureAwait(false);
+
+                while (reader.Read())
+                {
+                    var user = new User(int.Parse(reader["id"].ToString()),
+                                        reader["name"].ToString(),
+                                        reader["email"].ToString(),
+                                        reader["password"].ToString(),
+                                        reader["profile"].ToString());
+
+                    user.InformationEmailUser(reader["Email"].ToString(),
+                        reader["Password"].ToString());
                     return user;
                 }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NordTv.Domain.Core;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,7 +14,7 @@ namespace NordTv.Domain.Entities
         {
             Name = name;
             Email = email;
-            Password = password;
+            CriptografyPassword(password);
             SetProfile(profile);
         }
 
@@ -26,7 +27,7 @@ namespace NordTv.Domain.Entities
             SetId(id);
             Name = name;
             Email = email;
-            Password = password;
+            CriptografyPassword(password);
             SetProfile(profile);
         }
 
@@ -51,9 +52,40 @@ namespace NordTv.Domain.Entities
 
             if (Profile == null)
             {
-                throw new ArgumentException("Profile argument not match with " + string.Join(" or ", profiles));
+                throw new ArgumentException("O argumento do perfil não corresponde a  " + string.Join(" ou ", profiles));
             }
 
+        }
+
+        public bool IsValid()
+        {
+            var valid = true;
+
+            if (string.IsNullOrEmpty(Name) ||
+                string.IsNullOrEmpty(Email) ||
+                string.IsNullOrEmpty(Password)
+                )
+            {
+                valid = false;
+            }
+
+            return valid;
+        }
+
+        public void CriptografyPassword(string password)
+        {
+            Password = PasswordHasher.Hash(password);
+        }
+
+        public bool IsEqualPassword(string password)
+        {
+            return PasswordHasher.Verify(password, Password);
+        }
+
+        public void InformationEmailUser(string email, string password)
+        {
+            Email = email;
+            Password = password;
         }
 
         public void SetId(int id) 

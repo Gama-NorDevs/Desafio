@@ -1,5 +1,6 @@
 ﻿using NordTv.Application.AppUser.Input;
 using NordTv.Application.AppUser.Interfaces;
+using NordTv.Application.AppUser.Output;
 using NordTv.Domain.Entities;
 using NordTv.Domain.Interfaces.Repositories;
 using System;
@@ -19,25 +20,40 @@ namespace NordTv.Application.AppUser
             _userRepository = userRepository;
         }
 
-        public Task<List<User>> GetAllAsync()
-        {
-            return _userRepository.GetAllAsync();
+        public async Task<List<User>> GetAllAsync()
+        { 
+            return await _userRepository.GetAllAsync().ConfigureAwait(false);
         }
 
-        public Task<User> GetByEmailAsync(string email)
+        public async Task<User> GetByEmailAsync(string email)
         {
-            return _userRepository.GetByEmailAsync(email);
+            return await _userRepository.GetByEmailAsync(email).ConfigureAwait(false);
         }
 
-        public Task<User> GetByIdAsync(int id)
+        public async Task<User> GetByIdAsync(int id)
         {
-            return _userRepository.GetByIdAsync(id);
+            return await _userRepository.GetByIdAsync(id).ConfigureAwait(false);
         }
 
-        public Task<User> InsertAsync(UserInput input)
+        public async Task<UserViewModel> InsertAsync(UserInput input)
         {
+            if (input.Profile is null)
+            {
+                throw new ArgumentException("Perfil associado não existe!"); ;
+            }
+
             var user = new User(input.Name, input.Email, input.Password, input.Profile);
-            return _userRepository.InsertAsync(user);
+
+            if (!user.IsValid())
+            {
+                throw new ArgumentException("Dados do usuário são obrigatórios."); ;
+            } 
+            
+            var id = await _userRepository
+                            .InsertAsync(user)
+                            .ConfigureAwait(false);
+
+            return new UserViewModel(id.Id, user.Email, user.Name, user.Profile); ;
         }
     }
 
