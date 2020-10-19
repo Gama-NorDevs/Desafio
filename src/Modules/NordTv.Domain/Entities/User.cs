@@ -52,7 +52,7 @@ namespace NordTv.Domain.Entities
 
             if (Profile == null)
             {
-                throw new ArgumentException("O argumento do perfil não corresponde a  " + string.Join(" ou ", profiles));
+                throw new ArgumentException("O argumento do perfil não corresponde a " + string.Join(" ou ", profiles));
             }
 
         }

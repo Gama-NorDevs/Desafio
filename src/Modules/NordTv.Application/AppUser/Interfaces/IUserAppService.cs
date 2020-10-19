@@ -12,7 +12,7 @@ namespace NordTv.Application.AppUser.Interfaces
     {
         Task<UserViewModel> InsertAsync(UserInput input);
         Task<User> GetByIdAsync(int id);
-        Task<User> GetByEmailAsync(string email);
+        Task<User> GetByLoginAsync(string email);
         Task<List<User>> GetAllAsync();
     }
 }

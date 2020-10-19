@@ -25,14 +25,14 @@ namespace NordTv.Application.AppUser
             return await _userRepository.GetAllAsync().ConfigureAwait(false);
         }
 
-        public async Task<User> GetByEmailAsync(string email)
-        {
-            return await _userRepository.GetByEmailAsync(email).ConfigureAwait(false);
-        }
-
         public async Task<User> GetByIdAsync(int id)
         {
             return await _userRepository.GetByIdAsync(id).ConfigureAwait(false);
+        }
+
+        public async Task<User> GetByLoginAsync(string email)
+        {
+            return await _userRepository.GetByLoginAsync(email).ConfigureAwait(false);
         }
 
         public async Task<UserViewModel> InsertAsync(UserInput input)

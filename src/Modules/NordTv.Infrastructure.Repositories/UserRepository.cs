@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace NordTv.Infrastructure.Repositories
@@ -53,44 +52,6 @@ namespace NordTv.Infrastructure.Repositories
                 throw new Exception(ex.Message);
             }
         }
-
-        public async Task<User> GetByEmailAsync(string email)
-        {
-            try
-            {
-                using var connection = new SqlConnection(_configuration["ConnectionString"]);
-                var sqlQuery = $@"SELECT *
-                                    FROM [dbo].[User] 
-                                    WHERE email={email};";
-
-                using SqlCommand command = new SqlCommand(sqlQuery, connection);
-                command.CommandType = CommandType.Text;
-                connection.Open();
-
-                var reader = await command
-                                    .ExecuteReaderAsync()
-                                    .ConfigureAwait(false);
-
-                while (reader.Read())
-                {
-                    var user = new User(int.Parse(reader["id"].ToString()), 
-                                        reader["name"].ToString(), 
-                                        reader["email"].ToString(), 
-                                        reader["password"].ToString(), 
-                                        reader["profile"].ToString());
-
-                    user.InformationEmailUser(reader["Email"].ToString(), reader["Password"].ToString());
-                    return user;
-                }
-
-                return default;
-            }
-            catch (SqlException ex)
-            {
-                throw new Exception(ex.Message);
-            }
-        }
-
         
         public async Task<User> GetByIdAsync(int id)
         {

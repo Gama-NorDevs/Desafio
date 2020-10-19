@@ -15,6 +15,17 @@ namespace NordTv.Domain.Entities
             User = user;
         }
 
+        public Actor(double amount,
+                      char sex,
+                      User user,
+                      List<Genre> genres)
+        {
+            Amount = amount;
+            Sex = sex;
+            User = user;
+            Genres = genres;
+        }
+
         public Actor (  int id,
                         double amount,
                         char sex,
@@ -32,6 +43,23 @@ namespace NordTv.Domain.Entities
         public User User { get; private set; }
         public List<Work> Works { get; private set; }
         public List<Genre> Genres { get; private set; }
+
+        public bool IsValid()
+        {
+            var valid = true;
+
+            User.IsValid();
+           
+            if (
+                string.IsNullOrEmpty(Amount.ToString()) ||
+                string.IsNullOrEmpty(Sex.ToString()) 
+                )
+            {
+                valid = false;
+            }
+
+            return valid;
+        }
 
         public void SetId(int id)
         {

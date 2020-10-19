@@ -9,5 +9,6 @@ namespace NordTv.Application.AppActor.Input
         public double Amount { get; set; }
         public char Sex { get; set; }
         public int IdUser { get; set; }
+        public int[] Genres { get; set; }
     }
 }

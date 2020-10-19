@@ -8,7 +8,6 @@ namespace NordTv.Domain.Interfaces.Repositories
     {
         Task<User> InsertAsync(User user);
         Task<User> GetByIdAsync(int id);
-        Task<User> GetByEmailAsync(string email);
         Task<User> GetByLoginAsync(string email);
         Task<List<User>> GetAllAsync();
     }
