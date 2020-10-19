@@ -24,13 +24,17 @@ function Login(props) {
     initialValues,
     validationSchema,
     onSubmit: async (values) => {
-      const { email, name, password, profile, ...actor } = values;
+      const { email, name, password, profile, amount, sex } = values;
       try {
         const newActor = await api
           .post("/user", { email, name, password, profile })
           .then((result) => {
             console.log(result);
-            api.post("/actor", { ...actor, idUser: result.data.id_user });
+            return api.post("/actor", {
+              amount: Number(amount),
+              sex,
+              idUser: Number(result.data.id),
+            });
           });
 
         console.log(newActor);
