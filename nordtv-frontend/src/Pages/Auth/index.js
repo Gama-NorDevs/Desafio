@@ -11,11 +11,11 @@ function Auth() {
   const [register, setRegister] = useState(false);
 
   useEffect(() => {
-    setUser({
-      name: "teste",
-      email: "teste2@teste.com.br",
-      profile: "admin",
-    });
+    // setUser({
+    //   name: "teste",
+    //   email: "teste2@teste.com.br",
+    //   profile: "admin",
+    // });
 
     const user = getUser();
     if (user) {
